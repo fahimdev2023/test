@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <form action="#" method="post">
+        <h1 align="center">Sign Up</h1>
+        <hr>
+        <div align="center">
+            <label for="user"> Name </label>
+            <input type="text" id="user" name="user" placeholder="Full Name" required><br>
+            <label for="email"> Email </label>
+            <input type="email" id="email" name="email" placeholder="Email Adress" required><br>
+            <label for="password"> Password </label>
+            <input type="password" id="passsword" name="password" placeholder="Minimum 8 character" required><br>
+            <label for="mobile"> Mobile Number <select name="code">
+                    <option value="+880">+880</option>
+                    <option value="+911">+991</option>
+                    <option value="+1">+1</option>
+                    <option value="+44">+44</option>
+                </select></label>
+            <input type="number" id="mobile" name="mobile" placeholder="Mobile Number" required><br>
+            Gender
+            <input type="checkbox" id="gender1" name="gender1">
+            <label for="gender1"> Male </label>
+            <input type="checkbox" id="gender2" name="gender2">
+            <label for="gender2"> Female </label><br>
+            <label for="dob"> Date Of Birth </label>
+            <input type="date" id="dob" name="dob" required><br>
+            <label for="country"> Country </label>
+            <input list="country" required>
+            <datalist id="country">
+                <option value="Bangladesh"></option>
+                <option value="India"></option>
+                <option value="Pakistan"></option>
+                <option value="Srilanka"></option>
+                <option value="Brazil"></option>
+                <opt ion value="Argentina">
+                    </option>
+            </datalist>
+
+            <br>
+            <label for="time"> Time </label>
+            <input type="time" id="time" name="time" required><br>
+            <label for="color"> Choose Your Theme </label>
+            <input type="color" id="color" name="color" required><br>
+            <label for="picture"> Upload Profile Picture </label>
+            <input type="file" id="picture" name="picture" required><br>
+            <input type="checkbox" id="checkbox1" name="checkbox1">
+            <label for="checkbox1"> I have A Bike </label>
+            <input type="checkbox" id="checkbox2" name="checkbox2">
+            <label for="checkbox2"> I have A Car </label><br>
+            Write Your Comment Bellow <br>
+            <textarea name="comment" cols="30" rows="10">  </textarea><br>
+            <input type="submit">
+            <input type="reset">
+        </div>
+    </form>
+    <hr>
+</body>
+
+</html>
